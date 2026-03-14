@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    scroll-behavior: smooth;
 }
 
 .container {
@@ -55,7 +58,7 @@ header {
     background-color: transparent;
     color: white;
     box-shadow: 0 0 15px #edff66;
-    
+
 }
 
 .head-right {
@@ -69,7 +72,7 @@ header {
     font-size: 15px;
 }
 
-.hero-subtitle{
+.hero-subtitle {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
@@ -457,7 +460,7 @@ header {
     }
 }
 
-.stones-img{
+.stones-img {
     position: absolute;
     margin-top: 22%;
     width: 500px;
@@ -503,81 +506,82 @@ header {
         padding: 0 10px;
     }
 
-    .head-left button{
+    .head-left button {
         display: none;
     }
 
-    .head-right a{
+    .head-right a {
         font-size: 12px;
         padding: 0 5px;
     }
 
-    .hero-info{
+    .hero-info {
         left: 5%;
     }
 
-    .hero-section{
+    .hero-section {
         font-size: 90px;
     }
 
-    .next-btn{
+    .next-btn {
         left: 25%;
         top: 40%;
     }
 
-    .about-section{
+    .about-section {
         margin: 0;
     }
 
-    .about-section h1{
+    .about-section h1 {
         font-size: 50px;
     }
 
-    .image-box{
+    .image-box {
         width: 300px;
         height: 500px;
     }
 
-    .about-section h4, .about-section h5{
+    .about-section h4,
+    .about-section h5 {
         max-width: 350px;
         text-align: center;
     }
 
-    .contact-section .img1{
+    .contact-section .img1 {
         width: 150px;
         height: 200px;
         right: 0;
         top: 20px;
     }
 
-    .contact-section .img2{
+    .contact-section .img2 {
         top: 30px;
         left: -40px;
         width: 180px;
         height: 180px;
     }
 
-    .contact-section .img3{
+    .contact-section .img3 {
         left: -40px;
         bottom: 0;
         width: 150px;
         height: 180px;
     }
 
-    .contact-section h1{
+    .contact-section h1 {
         font-size: 60px;
         max-width: 300px;
     }
 
-    .footer p{
+    .footer p {
         display: none;
     }
 
-    .footer ul{
+    .footer ul {
         margin-left: 70px;
     }
 
-    .stones-img{
+    .stones-img {
         margin-top: 80%;
         width: 400px;
     }
